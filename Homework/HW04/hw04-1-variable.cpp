@@ -1,15 +1,14 @@
-#include <stdio.h>
+/*
+    จงแสดงผลตัวแปรทั้งหมดเรียงลำดับดังนี้ a b c d
 
-int main() {
+    Output:
+        10 20.0 Haha a
+*/
+
     int a = 10;
-    float b = 20;
+    float b = 20.0;
     char c[] = "Haha";
     char d = 'a';
 
-    printf("a = %d\n", a);
-    printf("b = %f\n", b);
-    printf("c = %s\n", c);
-    printf("d = %c\n", d);
-
-    return 0;
-}
+    printf("%d, %f, %s, %c\n", a, b, c, d);
+ 
