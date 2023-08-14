@@ -1,12 +1,15 @@
-/*
-    จงแสดงผลตัวแปรทั้งหมดเรียงลำดับดังนี้ a b c d
+#include <stdio.h>
 
-    Output:
-        10 20.0 Haha a
-*/
+int main() {
+    int a = 10;
+    float b = 20;
+    char c[] = "Haha";
+    char d = 'a';
 
-int a = 10 ;
-float b = 20 ;
-char c[] = "Haha" ;
-char d = 'a' ;
-printf( "_ _ _ _", _, _, _, _) ; //TODO: #10 Display variable a, b, c and d.
+    printf("a = %d\n", a);
+    printf("b = %f\n", b);
+    printf("c = %s\n", c);
+    printf("d = %c\n", d);
+
+    return 0;
+}
